@@ -1,31 +1,29 @@
-# Project title
+# Project Title
 
 Docker Image for running Node.js Server on Ubuntu. 
 
 ## Description 
 
-This project shows how to generate Docker image to run Node.js (Express) server on Ubuntu distribution.
+This project shows how to generate Docker image runs Node.js server on an Ubuntu distribution.
 
-
-### The project contains:
+### Contents
 
 * Dockerfile: contains the needed instructions to build Docker image has Node.js server running on Ubuntu.18.04
 
-* app.js: the app file creates server listening to port 8080 using Express.
+* app.js: creates a Node.js server listening to port 8080 using Express.js
 
-* index.html: the landing page of this app.
+* index.html: contains application's landing page.
 
-* package.json: NPM packages file contains the needed package to setupt the server (Express).
+* package.json: contains the needed package to setup a server (Express).
 
-* Public: folder contains the static data for the app (images , etc.)
+* Public: folder contains application's static data  (images , etc.)
 
 
-### Preconditions
+### Prerequisites
 Must have Docker installed on your machine.
 
 
-### Steps:
-
+### Building Steps:
 
 * Download project source code.
 
@@ -40,13 +38,13 @@ Must have Docker installed on your machine.
     docker image build --tag ubuntu_node_server .
     ```
 
-* List Docker images and see the new created image.
+* List Docker images and see the new created one.
     ```
     docker image ls
     ```
 
 
-* Run this image and expose its port 8080 (default one, you can change it)
+* Run this image and expose its port 8080 (default one, you can change it before building stage)
     ```
     docker container run --name my-node-server -p 8080:8080 ubuntu_node_server
     ```
@@ -58,4 +56,4 @@ Must have Docker installed on your machine.
 
 
 
-
+ 
