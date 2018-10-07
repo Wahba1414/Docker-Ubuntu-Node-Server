@@ -1,9 +1,8 @@
-#######################################################################################################
 > This project shows how to generate Docker image to run Node.js (Express) server on Ubuntu distribution.
 
-#######################################################################################################
+
 > The project contains:
-######################
+
 
 1-Dockerfile: contains the needed instructions to build Docker image has Node.js server running on Ubuntu.18.04
 
@@ -15,15 +14,14 @@
 
 5-Public: folder contains the static data for the app (images , etc.)
 
-#######################################################################################################
+
 
 > Preconditions
 Must have Docker installed on your machine.
 
-#######################################################################################################
 
 > Steps:
-########
+
 
 1- Download project source code.
 
