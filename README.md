@@ -16,7 +16,7 @@ This project shows how to generate Docker image runs Node.js server on an Ubuntu
 
 * package.json: contains the needed package to setup a server (Express).
 
-* Public: folder contains application's static data  (images , etc.)
+* Public: folder contains application's static data  (images, etc.)
 
 
 ### Prerequisites
